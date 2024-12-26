@@ -1,5 +1,6 @@
 ---
 import presentation from "../data/presentacion"
+import SocialLinks from "./SocialLinks.astro"
 ---
 
 <article class="flex flex-col gap-8 mt-5 mx-5 md:mx-2">
@@ -10,5 +11,8 @@ import presentation from "../data/presentacion"
         <div class="text-lg">
             {presentation.description}
         </div>
+    </div>
+    <div>
+        <SocialLinks />
     </div>
 </article>
